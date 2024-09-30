@@ -16,6 +16,8 @@ const AddProduct: React.FC = () => {
     quantity: ""
   });
 
+  
+
   const [errors, setErrors] = useState<{ [key: string]: string }>({});
   const [msg, setMsg] = useState<string>("");
 
